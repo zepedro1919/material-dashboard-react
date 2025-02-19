@@ -4,16 +4,21 @@ export const MaintenanceContext = createContext();
 
 export const MaintenanceProvider = ({ children }) => {
     const [alerts, setAlerts] = useState([]);
-    const storedUser = JSON.parse(localStorage.getItem("user")) || {};
-    const userId = storedUser?.id || null;
+    let storedUser = JSON.parse(localStorage.getItem("user")) || {};
+    let userId = storedUser?.id || null;
 
     const fetchMaintenanceAlerts = () => {
-        fetch(`https://nautilustech.onrender.com/maintenance-alerts?userId=${userId}`)
-        .then((res) => res.json())
-        .then((data) => {
-            setAlerts(data);
-        })
-        .catch((err) => console.error("Error fetching maintenance alerts:", err))
+        if userId !== null {
+            fetch(`https://nautilustech.onrender.com/maintenance-alerts?userId=${userId}`)
+            .then((res) => res.json())
+            .then((data) => {
+                setAlerts(data);
+            })
+            .catch((err) => console.error("Error fetching maintenance alerts:", err))
+        } else {
+            let storedUser = JSON.parse(localStorage.getItem("user")) || {};
+            let userId = storedUser?.id || null;
+        }
     };
 
     useEffect(() => {
