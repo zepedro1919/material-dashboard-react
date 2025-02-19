@@ -8,7 +8,7 @@ export const MaintenanceProvider = ({ children }) => {
     const userId = storedUser?.id || null;
 
     const fetchMaintenanceAlerts = () => {
-        fetch(`http://localhost:5000/maintenance-alerts?userId=${userId}`)
+        fetch(`https://nautilustech.onrender.com/maintenance-alerts?userId=${userId}`)
         .then((res) => res.json())
         .then((data) => {
             setAlerts(data);
