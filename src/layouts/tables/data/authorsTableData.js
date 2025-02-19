@@ -40,7 +40,7 @@ const formatDuration = (seconds) => {
 export default async function fetchMachineLogs() {
   try {
 
-    const response = await fetch("http://localhost:5000/machine-usage", {
+    const response = await fetch("https://nautilustech.onrender.com/machine-usage", {
       method: "GET",
       headers: { "Content-Type": "application/json" },
     });
