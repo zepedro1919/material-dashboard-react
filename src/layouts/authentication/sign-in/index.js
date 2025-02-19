@@ -23,7 +23,7 @@ function Basic() {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    fetch("http://localhost:5000/api/login", {
+    fetch("https://nautilustech.onrender.com/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password })
