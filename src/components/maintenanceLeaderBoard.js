@@ -9,7 +9,7 @@ const MaintenanceLeaderboard = () => {
     useEffect(() => {
         const fetchLeaderboard = async() => {
             try {
-                const response = await fetch("http://localhost:5000/api/maintenance-leaderboard");
+                const response = await fetch("https://nautilustech.onrender.com/api/maintenance-leaderboard");
                 const data = await response.json();
                 setLeaderboard(data);
             } catch (error) {
