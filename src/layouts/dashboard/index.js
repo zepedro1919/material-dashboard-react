@@ -23,7 +23,7 @@ function Dashboard() {
 
   useEffect(() => {
     try {
-      fetch(`http://localhost:5000/machines?userId=${userId}`)
+      fetch(`https://nautilustech.onrender.com?userId=${userId}`)
         .then((res) => {
           console.log("Fetch Response:", res);
           if (!res.ok) {
