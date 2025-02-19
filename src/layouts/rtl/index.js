@@ -76,7 +76,7 @@ function MaintenanceTracker() {
     try {
       console.log(`🔍 Attempting to resolve alert with ID: ${alertId}`);
 
-      const response = await fetch(`http://localhost:5000/resolve-alert/${alertId}`, { method: "PUT" });
+      const response = await fetch(`https://nautilustech.onrender.com/resolve-alert/${alertId}`, { method: "PUT" });
       
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -109,7 +109,7 @@ function MaintenanceTracker() {
       duration: elapsedTime,
     };
 
-    await fetch("http://localhost:5000/log-maintenance", {
+    await fetch("https://nautilustech.onrender.com/log-maintenance", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(maintenanceData),
