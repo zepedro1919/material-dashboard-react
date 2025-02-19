@@ -45,7 +45,7 @@ function Notifications() {
         if (!userId) {
           console.error("User Id is missing in localStorage");
         } else {
-          fetch(`http://localhost:5000/maintenance-alerts?userId=${userId}`)
+          fetch(`https://nautilustech.onrender.com?userId=${userId}`)
           .then((res) => res.json())
           .then((data) => {
             if (Array.isArray(data)) {
