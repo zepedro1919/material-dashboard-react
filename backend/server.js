@@ -14,8 +14,6 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
 
-const MAINTENANCE_THRESHOLD_HOURS = 100; // threshold = limite
-
 app.get("/api/protected-data", authenticateToken, async (req, res) => {
   res.json({ message: "This is protected data!", user: req.user });
 });
