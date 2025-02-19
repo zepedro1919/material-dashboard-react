@@ -20,10 +20,10 @@ export const UserProvider = ({ children }) => {
             }
 
             // Update maintenance scores in the database
-            await fetch("http://localhost:5000/api/update-maintenance-scores", { method: "GET" });
+            await fetch("https://nautilustech.onrender.com/api/update-maintenance-scores", { method: "GET" });
 
             // Fetch updated user info
-            const response = await fetch(`http://localhost:5000/api/user/${storedUser.id}`);
+            const response = await fetch(`https://nautilustech.onrender.com/api/user/${storedUser.id}`);
             const updatedUser = await response.json();
 
             if (updatedUser.maintenanceScore) {
