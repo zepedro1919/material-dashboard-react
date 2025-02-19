@@ -17,7 +17,7 @@ function MachineDetail() {
 
   useEffect(() => {
     // Fetch machine details from backend
-    fetch(`http://localhost:5000/machines/${id}`)
+    fetch(`https://nautilustech.onrender.com/machines/${id}`)
       .then((res) => res.json())
       .then((data) => setMachine(data))
       .catch((err) => console.error("Error fetching machine details:", err))
@@ -60,7 +60,7 @@ function MachineDetail() {
       duration: elapsedTime,
     };
 
-    fetch("http://localhost:5000/machine-usage", {
+    fetch("https://nautilustech.onrender.com/machine-usage", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(sessionData),
