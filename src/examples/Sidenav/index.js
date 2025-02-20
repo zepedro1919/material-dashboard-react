@@ -92,7 +92,7 @@ function Sidenav({ color, brand, brandName, routes, handleLogout, ...rest }) {
     console.log("Route rendering", name, "Has onClick?", !!onClick);
 
     if (type === "collapse") {
-      disabled === false && name !== "Sign Out" ? (
+      returnValue = href && name !== "Sign Out" ? (
         <Link
           href={href}
           key={key}
