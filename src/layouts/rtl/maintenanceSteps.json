@@ -1,6 +1,6 @@
 {
     "M-CNC301": {
-      "Limpeza profunda da máquina e manutenção": [
+      "Limpeza profunda da maquina e manutencao": [
         {
             "description": "Step 1: Limpeza do depósito sob trave",
             "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1738945390/limpeza_do_deposito_sob_trave_dorlvy.jpg"
@@ -26,7 +26,7 @@
             "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1738945398/manutencao_do_grupo_filtro_regulador_kp1k4e.jpg"
         }
       ],
-      "Lubrificação": [
+      "Lubrificacao": [
         {
           "description": "Step 1: Lubrificação centralizada automática dos patins, parafusos de recirculação de esferas e unidade de trabalho",
           "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1739552966/lubrificacao_centralizada_automatica_dos_patins_ykcsbd.png"
@@ -40,7 +40,7 @@
           "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1739552997/modalidade_automatica_tfjrip.jpg"
         }
       ],
-      "Limpeza e controlo da instalação elétrica": [
+      "Limpeza e controlo da instalacao eletrica": [
         {
           "description": "Step 1: Verificação do estados dos componentes e dos cabos",
           "image": ""
@@ -58,7 +58,7 @@
           "image": ""
         }
       ],
-      "Remoção de resíduos": [
+      "Remocao de residuos": [
         {
           "description": "Step 1: Retirar todo o estrato de massa lubrificante das guias (ponto 1 na figura) e dos parafusos de recirculação de esferas (ponto 2 na figura). A massa lubrificante nas guias deve ser eliminada utilizando petróleo sem ácidos ou solvente mineral.",
           "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1739554326/remocao_de_residuos_yr9pgl.jpg"
@@ -72,7 +72,7 @@
           "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1739554326/remocao_de_residuos_yr9pgl.jpg"
         }
       ],
-      "Lubrificação da cabeça e da lâmina": [
+      "Lubrificacao da cabeca e da lamina": [
         {
           "description": "Step 1: Posicionar o seletor modal do estado da máquina, colocado no painel de controlos do armário elétrico na posição 'automático'.",
           "image": ""
@@ -122,7 +122,7 @@
           "image": ""
         }
       ],
-      "Lubrificação da cremalheira do eixo x": [
+      "Lubrificacao da cremalheira do eixo x": [
         {
           "description": "Step 1: Limpar cuidadosamente toda a cremalheira (fig. 5.9./ponto 1) com panos limpos, eliminando eventuais resíduos de massa lubrificante velha e contaminada por pós ou impurezas. Empregar se necessário petróleo sem ácidos ou solvente mineral ou também uma escova de bronze para eliminar os resíduos mais resistentes.",
           "image": "https://res.cloudinary.com/dd4qhro5e/image/upload/v1739784974/lubrificacao_da_cremalheira_pbedha.jpg"
@@ -142,25 +142,25 @@
       ]
     },
     "Z-Emp01": {
-      "Revisão do tipo 250 horas": [
+      "Revisao do tipo 250 horas": [
         {
           "description": "Revisão do tipo 250 horas",
           "image": ""
         }
       ],
-      "Revisão do tipo 500 horas": [
+      "Revisao do tipo 500 horas": [
         {
           "description": "Revisão do tipo 500 horas",
           "image": ""
         }
       ],
-      "Revisão do tipo 1000 horas": [
+      "Revisao do tipo 1000 horas": [
         {
           "description": "Revisão do tipo 1000 horas",
           "image": ""
         }
       ],
-      "Revisão do tipo 2000 horas": [
+      "Revisao do tipo 2000 horas": [
         {
           "description": "Revisão do tipo 2000 horas",
           "image": ""
@@ -168,37 +168,37 @@
       ]
     },
     "M-PreHF1": {
-      "Substituição do filtro de retorno": [
+      "Substituicao do filtro de retorno": [
         {
           "description": "Substituição do filtro de retorno", 
           "image": ""
         }
       ],
-      "Substituição do filtro de aspiração da bomba de alta pressão": [
+      "Substituicao do filtro de aspiração da bomba de alta pressao": [
         {
           "description": "Substituição do filtro de aspiração da bomba de alta pressão",
           "image": ""
         }
       ],
-      "Substituição do filtro de aspiração da bomba de caudal": [
+      "Substituicao do filtro de aspiracao da bomba de caudal": [
         {
           "description": "Substituição do filtro de aspiração da bomba de caudal",
           "image": ""
         }
       ],
-      "Substituição de vedantes da eletroválvula": [
+      "Substituicao de vedantes da eletrovalvula": [
         {
           "description": "Substituição de vedantes da eletroválvula",
           "image": ""
         }
       ],
-      "Substituição de vedantes de saída das bombas": [
+      "Substituicao de vedantes de saida das bombas": [
         {
           "description": "Substituição de vedantes de saída das bombas",
           "image": ""
         }
       ],
-      "Dependendo do estado do óleo - Substituição e limpeza do depósito": [
+      "Dependendo do estado do oleo - Substituicao e limpeza do deposito": [
         {
           "description": "Dependendo do estado do óleo - Substituição e limpeza do depósito",
           "image": ""
