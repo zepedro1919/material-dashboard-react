@@ -19,8 +19,8 @@ const MaintenanceAlertPopup = () => {
       setTimeout(() => {
         setCurrentAlertIndex((prevIndex) => (prevIndex + 1) % alerts.length); // Moves to the next alert
         setOpen(true);
-      }, 500); // delay before next alert appears
-    }, 3000); // Change alert every 3 seconds
+      }, 1000); // delay before next alert appears
+    }, 10000); // Change alert every 3 seconds
 
     return () => clearInterval(interval);
   }, [alerts]);
