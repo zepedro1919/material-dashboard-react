@@ -48,7 +48,7 @@ export default async function fetchMaintenanceLogs() {
         { Header: "Duration", accessor: "duration", align: "center" },
       ],
 
-      rows:  (logs || []).map(log => ({
+      rows:  (Array.isArray(logs) ? logs : []).map(log => ({
         user: (
           <MDTypography variant="caption" fontWeight="medium">
             {log.user_name}

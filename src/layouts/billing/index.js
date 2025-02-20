@@ -67,7 +67,7 @@ function MachineDetail() {
     })
       .then((res) => res.json())
       .then((data) => console.log("Usage logged:", data))
-      .catch((err) => console.error("Error saving session:", err));
+      .catch((err) => console.error("Error saving session:", err))
 
     navigate('/machines');
   };
