@@ -92,7 +92,7 @@ function Sidenav({ color, brand, brandName, routes, handleLogout, ...rest }) {
     console.log("Route rendering", name, "Has onClick?", !!onClick);
 
     if (type === "collapse") {
-      returnValue = href && name !== "Sign Out" ? (
+      disabled === false && name !== "Sign Out" ? (
         <Link
           href={href}
           key={key}
@@ -135,7 +135,10 @@ function Sidenav({ color, brand, brandName, routes, handleLogout, ...rest }) {
       ) : (
         <NavLink 
           key={key} 
-          to={route}
+          to={disabled ? "#" : route}
+          onClick={(e) => disabled && e.preventDefault()}
+          aria-disabled={disabled}
+          tabIndex={disabled ? "1" : "0"}
           style ={{
             textDecoration: "none",
             color: disabled ? "#a0a0a0" : "inherit",
