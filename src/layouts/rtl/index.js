@@ -33,7 +33,9 @@ function MaintenanceTracker() {
   }, [alertId, machineId, navigate]);
 
   useEffect(() => {
+    console.log("Maintenance Steps Data:", maintenanceStepsData);
     if (maintenanceStepsData[machineName] && maintenanceStepsData[machineName][maintenanceType]) {
+      console.log("Found maintenance steps data for machine ", machineName, " ", maintenanceStepsData[machineName][maintenanceType]);
       setSteps(maintenanceStepsData[machineName][maintenanceType]);
     }
   }, [machineName, maintenanceType]);
